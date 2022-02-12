@@ -29,3 +29,11 @@ beforeEach(async () => {
     campaignAddress
   );
 });
+
+describe('Campaigns', () => {
+  it('deploys a factory and a campaign', () => {
+    assert.ok(factory.options.address);
+    assert.ok(campaign.options.address);
+  });
+
+});
