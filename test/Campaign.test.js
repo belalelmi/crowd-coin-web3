@@ -90,7 +90,7 @@ describe('Campaigns', () => {
     let balance = await web3.eth.getBalance(accounts[1]);
     balance = web3.utils.fromWei(balance, "ether");
     balance = parseFloat(balance);
-    console.log(balance);
+    // console.log(balance);
     assert(balance > 104);
   });
 });
