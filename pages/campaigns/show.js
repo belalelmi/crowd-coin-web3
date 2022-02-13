@@ -1,9 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Layout from '../../components/Layout';
 
 export class CampaignShow extends Component {
   render() {
     return (
-      <h3>CampaignShow</h3>
+      <Layout>
+        <h3>CampaignShow</h3>
+      </Layout>
     )
   }
 }
