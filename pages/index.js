@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import { Button, Card } from "semantic-ui-react";
-import factory from "../ethereum/factory";
-import Layout from "../components/Layout";
-import { Link } from '../routes';
+import React, { Component } from 'react'
+import { Button, Card } from 'semantic-ui-react'
+import factory from '../ethereum/factory'
+import Layout from '../components/Layout'
+import { Link } from '../routes'
 
 class CampaignIndex extends Component {
   static async getInitialProps() {
-    const campaigns = await factory.methods.getDeployedCampaigns().call();
-    return { campaigns };
+    const campaigns = await factory.methods.getDeployedCampaigns().call()
+    return { campaigns }
   }
 
   renderCampaigns() {
@@ -17,11 +17,12 @@ class CampaignIndex extends Component {
         description: (
           <Link route={`/campaigns/${address}`}>
             <a>View Campaign</a>
-          </Link>),
+          </Link>
+        ),
         fluid: true,
-      };
-    });
-    return <Card.Group items={items} />;
+      }
+    })
+    return <Card.Group items={items} />
   }
 
   render() {
@@ -29,7 +30,7 @@ class CampaignIndex extends Component {
       <Layout>
         <div>
           <h3>Open Campaigns</h3>
-          <Link route='/campaigns/new'>
+          <Link route="/campaigns/new">
             <a>
               <Button
                 floated="right"
@@ -42,8 +43,8 @@ class CampaignIndex extends Component {
           {this.renderCampaigns()}
         </div>
       </Layout>
-    );
+    )
   }
 }
 
-export default CampaignIndex;
+export default CampaignIndex
