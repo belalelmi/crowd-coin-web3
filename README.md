@@ -1,4 +1,4 @@
-## Crowd Coin
+## Crowd Coin 
 
 A decentralized crowdfunding platform based on the ethereum blockchain.
 
