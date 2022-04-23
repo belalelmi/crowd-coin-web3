@@ -27,7 +27,7 @@ This file should be setup as follows:
 - MNEMONIC="ENTER METAMASK MNEMONIC HERE"
 - RINKEBY_TEST_ENDPOINT='set up a rinkeby test endpoint and enter the endpoint url here'
 - CONTRACT_ADDRESS='0xE2D7E4bcc7a1DD39672386E6863bD4513B490103'
-
+ 
 Run the application: `npm run dev`
 
 You can now start a new campaign or contribute to and existing campaign by visiting [http://localhost:3000](http://localhost:3000) in the browse.
