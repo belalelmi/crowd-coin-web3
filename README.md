@@ -2,10 +2,10 @@
 
 A decentralized crowdfunding platform based on the ethereum blockchain.
 
-The purpose of this application was to eliminate the misuse of funds that was collected using the traditional crowdfunding applications. The applicatiion is designed to keep track of the money collected by harnessing the power of blockchain.
+The purpose of this application was to eliminate the misuse of funds that was collected using traditional crowdfunding applications. The applicatiion is designed to keep track of the money collected by harnessing the power of blockchain.
 
 - Much like crowd funding in the real world, you can create campaigns requiring a minimum contribution.
-- The creator of the campaign can propose how to use funding by creating a 'Request'.
+- The creator of the campaign can propose how to use funding by creating a 'Funding Request'.
 - The funding will not be released unless the majority of the campaign contributors agree to the request.
 - Only the manager of the contract can finalize a request.
 
